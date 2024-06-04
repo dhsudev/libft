@@ -122,4 +122,4 @@ gcc -o my_program my_program.c -L . -lft
 [repo_logo_img]: https://github.com/ayogun/42-project-badges/raw/main/badges/libftm.png
 [42_badge]:  https://img.shields.io/badge/cursus-black?logo=42&
 [language_badge]:  https://img.shields.io/badge/project-purple?logo=C&
-[status_badge]:  https://img.shields.io/badge/✦-Not_finished-white
+[status_badge]:  https://img.shields.io/badge/✦-Finished-green
