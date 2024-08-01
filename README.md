@@ -26,9 +26,24 @@ It will contain a lot of general purpose functions your programs will rely upon.
      `ft_lstnew`, `ft_lstadd_front`, `ft_lstsize`, `ft_lstlast`,
      `ft_lstadd_back`, `ft_lstdelone`, `ft_lstclear`, `ft_lstiter`, `ft_lstmap`
 
+**ft_printf**: A simple recreation of printf function.
+
+**get_next_line**: Function that reads a file descriptor line by line
+
 ## 📂 Repository Structure
 ```sh
 └── Libft/
+    └── ft_printf/
+        └── include/
+            └── ft_printf.h
+        └── src/
+            ├── ft_numbers.c
+            └── ft_printf.c
+        └── Makefile
+    └── get_next_line/
+        ├── get_next_line.c
+        ├── get_next_line.h
+        └── get_next_line_utils.c
     ├── Makefile
     ├── ft_atoi.c
     ├── ft_bzero.c
@@ -88,9 +103,10 @@ make [RULE]
 
 | Rule | Description                                              | 
 |--------|----------------------------------------------------------|
-| `` / `all`  | Default rule, compiles the mandatory part |
-|`bonus`| Compiles all the project, including the bonus part (the linked list func.) |
+| `all`  | Default rule, compiles the mandatory part |
+|`bonus`| Compiles all the project, including the bonus part (the linked list func.), get_next_line and ft_printf|
 |`clean`| Removes all the objects file of the project|
+|`fclean`| Removes all the temporary files of the project (.o and .a)|
 |`fclean`| Removes all the temporary files of the project (.o and .a)|
 
 ## ⚡️ Quick start
