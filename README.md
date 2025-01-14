@@ -1,14 +1,18 @@
+<p align="center">
+  <img src="https://github.com/ayogun/42-project-badges/raw/main/badges/libftm.png" alt="libft_badge"/>
+</p>
 
-![Project logo][repo_logo_img]
+<p align="center">
+  <img src="https://img.shields.io/badge/project-purple?logo=C&" alt="minishell_badge"/>
+  <img src="https://img.shields.io/badge/cursus-black?logo=42&" alt="minishell_badge"/>
+</p>
 
-![42 Badge][42_badge]
-![Language Badge][language_badge]
-![Project status Badge][status_badge]
-
-# Libft
-
-This project is about coding a C library.
-It will contain a lot of general purpose functions your programs will rely upon.
+<h1 align="center">📚 Libft 📚</h1>    
+<p align="center">
+	<b><i>Your very first step into crafting your own C library as part of the 42 School curriculum.</i></b>
+  <br>
+  This project challenges you to explore the fundamentals of C programming, memory management, and algorithmic thinking while building a robust library of essential functions from scratch.
+</p>
 
 ## 📦 Features
 **Libc Functions**: Reimplementation of standard C library functions with names prefixed by "ft_".
@@ -106,8 +110,8 @@ make [RULE]
 | `all`  | Default rule, compiles the mandatory part |
 |`bonus`| Compiles all the project, including the bonus part (the linked list func.), get_next_line and ft_printf|
 |`clean`| Removes all the objects file of the project|
-|`fclean`| Removes all the temporary files of the project (.o and .a)|
-|`fclean`| Removes all the temporary files of the project (.o and .a)|
+|`fclean`| Removes some of the temporary files of the project (.o and .a)|
+|`fclean`| Removes all the temporary files of the project (.o, .a and executables)|
 
 ## ⚡️ Quick start
 
